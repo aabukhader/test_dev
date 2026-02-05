@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash(env:*)",
+      "Bash(BASE_URL=\"http://localhost:8012/api/v1\":*)",
+      "Bash(DROP_HASH=\"2c15f77af9722f38c37e73d0b4aef68a\")",
+      "Bash(curl:*)",
+      "Bash(dir:*)",
+      "Bash(git init:*)",
+      "Bash(git checkout:*)",
+      "Bash(node -e:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh auth:*)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(gh pr create:*)",
+      "Bash(git rebase:*)",
+      "Bash(git reset:*)",
+      "Bash(git cherry-pick:*)"
+    ]
+  }
+}
