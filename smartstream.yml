@@ -1,0 +1,14 @@
+project:
+  name: My Project
+  version: 1.0.0
+  description: Project description
+  project_hash: 1e89f5aa1be24bb0330743825234e6c7
+  baseDirectory: .
+agents:
+  - agent:
+      id: d2e2e4f1b855c796b48b8d80e0dede57
+  - agent:
+      id: a796c5020191746c1005a61571072ea3
+  - agent:
+      id: 0ba6c372d77e5ca9588d25783be2836d
+
