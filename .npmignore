@@ -1,0 +1,9 @@
+# Files to exclude from npm package
+.git
+.github
+.vscode
+.claude
+node_modules
+smartstream.yml
+*.log
+.DS_Store

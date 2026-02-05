@@ -1,0 +1,46 @@
+{
+  "name": "@myproject/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint and Prettier configuration for consistent code style across projects",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.config.js",
+    "eslint-base.js",
+    "eslint-react.js",
+    "eslint-typescript.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "code-style",
+    "linting"
+  ],
+  "author": "My Project Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "prettier": ">=3.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myproject/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
